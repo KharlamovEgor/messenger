@@ -1,0 +1,11 @@
+.tile {
+  background-color: var(--secondary-color);
+  padding: 1em;
+  color: var(--light);
+  transition: background-color 0.15s linear;
+  border-bottom: 3px solid var(--secondary-color-hover);
+}
+
+.tile:hover {
+  background-color: var(--secondary-color-hover);
+}

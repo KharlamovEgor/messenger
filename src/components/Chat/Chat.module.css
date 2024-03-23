@@ -1,0 +1,59 @@
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  color: var(--light);
+  background-color: var(--bg-color);
+  height: 100%;
+}
+
+.form {
+  margin-top: auto;
+  display: flex;
+  background-color: var(--additional-color);
+}
+
+.form input {
+  flex: 1;
+  border: none;
+  font-size: 1rem;
+  padding: 0.8em 1em;
+  background-color: var(--additional-color);
+  color: var(--light);
+}
+
+.form button {
+  align-self: center;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form input::placeholder {
+  color: var(--light);
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin: 0.4em;
+}
+
+.scroll {
+  overflow-y: auto;
+  height: calc(100% - 100px);
+}
+
+.message {
+  align-self: self-end;
+}
+.leftMessage {
+  align-self: self-start;
+}
+
+.invisible {
+  visibility: hidden;
+}

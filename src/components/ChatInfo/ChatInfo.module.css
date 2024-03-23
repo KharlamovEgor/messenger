@@ -1,0 +1,15 @@
+.chatInfo {
+  background-color: var(--additional-color);
+  font-size: 1rem;
+  color: var(--light);
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chatInfo button {
+  background-color: transparent;
+  border: none;
+  color: var(--light);
+  font-weight: 600;
+}

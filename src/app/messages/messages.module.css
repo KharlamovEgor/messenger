@@ -1,0 +1,38 @@
+.container {
+  min-height: 100%;
+  display: flex;
+}
+
+.addChatForm {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.addChatForm.visible {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+  }
+  .chats {
+    width: 100%;
+  }
+
+  .chat {
+    position: absolute;
+    display: none;
+    width: 100%;
+  }
+
+  .chat.open {
+    display: block;
+  }
+}

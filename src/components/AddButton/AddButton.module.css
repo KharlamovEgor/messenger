@@ -1,0 +1,15 @@
+.addButton {
+  border: none;
+  border-radius: 50em;
+  background-color: var(--primary-color);
+  padding: 0.3em;
+  transition: background-color 0.2s linear;
+}
+
+.addButton:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.addButton img {
+  display: block;
+}

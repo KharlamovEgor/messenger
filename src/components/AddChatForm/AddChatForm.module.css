@@ -1,0 +1,27 @@
+.form {
+  background-color: var(--secondary-color);
+  padding: 1em;
+  border-radius: 5em;
+  gap: 0.5em;
+  display: flex;
+  min-width: 360px;
+}
+
+.input {
+  border: none;
+  font-size: 0.875rem;
+  padding: 0.8em 1em;
+  border-radius: 1em;
+  flex: 1;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.container {
+  background-color: rgb(0 0 0 / 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
